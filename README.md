@@ -1,9 +1,3 @@
-**Name:**    Yogesh Prabhakar Budhalkar
-**Company:** CODTECH IT SOLUTIONS
-**ID:**      CT08DS344
-**Domain:**  Embedded Systems
-**Duration:** December to January 2025
-**Mentor:**   SRAVANI GOUNI
 
 ## TEMPERATURE & HUMIDITY MONITORING 
 A Temperature and Humidity Monitoring System using a DHT11 sensor, an LCD display, and ESP32 is a great project to learn about sensor interfacing and real-time data display. Here's an overview:
