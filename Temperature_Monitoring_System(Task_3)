@@ -1,23 +1,23 @@
 /** TEMPERATURE MOITORING SYSTEM ***/
 
-#include <DHT.h>                        //Include Libraries
+#include <DHT.h>                        
 #include <LiquidCrystal_I2C.h>
 
-#define DHTPIN 15                     //Define sensorpin and types
+#define DHTPIN 15                     
 #define DHTTYPE DHT22
 
-DHT dht(DHTPIN, DHTTYPE);             //Initialize the Sensor
+DHT dht(DHTPIN, DHTTYPE);             
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
   // put your setup code here, to run once:
-  lcd.init();                         //Initialize the LcD
-  lcd.backlight();                    //Turnon the lcd backlight
+  lcd.init();                         
+  lcd.backlight();                    
   lcd.setCursor(0,0);
-  lcd.print("Yogesh_Budhalkar");     //To print the character
+  lcd.print("Yogesh_Budhalkar");     
   delay(4000);
 
-  dht.begin();                        //To turnON the Sensor
+  dht.begin();                        
  
 }
 
@@ -25,8 +25,8 @@ void loop() {
   // put your main code here, to run repeatedly:
    // this speeds up the simulation
 
-  lcd.clear();                                  //Clears the LCD screen and positions the cursor 
-  float t = dht.readTemperature();              //Stores the values of temperature and humidity
+  lcd.clear();                                  
+  float t = dht.readTemperature();           
   float h = dht.readHumidity();
   lcd.setCursor(1,0);
   lcd.print("Temperature:");                     
