@@ -18,7 +18,7 @@ Jumper Wires - For connections.
 A Temperature and Humidity Monitoring System using a DHT11 sensor, an LCD display, and ESP32 is a great project to learn about sensor interfacing and real-time data display. Here's an overview:
 
 ## DIAGRAM:
-![image_alt](https://github.com/YOGESH-BUDHALKAR8055/CODTECH-TASK3/blob/main/WHEATHER_STATION---%20WOKWI_SIM%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2020-01-2025%2011_10_20.png?raw=true)
+![image_alt]([https://github.com/YOGESH-BUDHALKAR8055/CODTECH-TASK3/blob/main/WHEATHER_STATION---%20WOKWI_SIM%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2020-01-2025%2011_10_20.png?raw=true](https://github.com/YOGESH-BUDHALKAR8055/CODTECH-TASK3/blob/main/Ckt_Diag3.png))
 
 ## Objective
 Design a system to measure temperature and humidity using a DHT11 sensor, display the values on an LCD, and optionally send the data to a web interface or IoT platform.
